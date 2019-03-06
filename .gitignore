@@ -5,7 +5,7 @@
 fritzing.pro.user
 /phoenix-build-*
 /release*
-/build*
+build/
 /debug*
 *.user
 *.user*
