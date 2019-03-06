@@ -76,11 +76,11 @@ cd ..
 
 set LIBGIT2=%~dp0..\..\libgit2\build%2
 
-rem set environment variable for qmake phoenix.pro
+rem set environment variable for qmake fritzing.pro
 set RELEASE_SCRIPT="release_script"
 
 
-%QMAKE% -o Makefile phoenix.pro %arch%
+%QMAKE% -o Makefile fritzing.pro %arch%
 
 echo building fritzing
 nmake release
