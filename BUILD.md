@@ -1,3 +1,6 @@
-# Building Frtizing
+# Building Fritzing
 
-TODO.
+```bash
+mkdir build/ && cd build/
+conan install ..
+```
