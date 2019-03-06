@@ -8,14 +8,9 @@ The Fritzing application is an Electronic Design Automation software with a low 
 
 * If you would like to help with the development, please take a look at the [developer instructions](https://github.com/fritzing/fritzing-app/wiki). This includes information about how to compile and run the Fritzing app in a few steps.
 
-
-# Folder Structure
-
-* **bins** - Part bins (.fzb, aka part libraries) are collections of parts, most importantly the "core" parts bin, and vendor-specific collections.
+## Folder Structure
 
 * **help** - End-user documentation included with the app. This should really be moved back to the website.
-
-* **parts** - All the part definitions, including meta data (.fzp) and graphics (.svg), as well as some utility tools. They are kept in a separate repository at [https://github.com/fritzing/fritzing-parts](http://github.com/fritzing/fritzing-parts) and only linked from here.
 
 * **pri** - Submodule definitions for Qt
 
@@ -29,8 +24,11 @@ The Fritzing application is an Electronic Design Automation software with a low 
 
 * **translations** - Language translations
 
+## How to build
 
-# Credits
+Follow the instructions at [here](./BUILD.md).
+
+## Credits
 
 The Fritzing app is maintained by the Friends-of-Fritzing e.V., a non-profit foundation based in Berlin, Germany. The project has grown out of a state-funded research project at the [Interaction Design Lab](http://idl.fh-potsdam.de) at [Potsdam University of Applied Sciences](http://fh-potsdam.de).
 
@@ -38,13 +36,12 @@ The core team consists of Prof. Reto Wettach, André Knörig, Jonathan Cohen, an
 
 The Fritzing app is written on top of the [Qt cross-platform framework](http://qt-project.org).
 
-
-# Licensing
+## Licensing
 
 The source code of Fritzing is licensed under GNU GPL v3, the documentation and part designs under Creative Commons Attribution-ShareALike 3.0 Unported. The full text of these licenses are shipped with this download.
 
-This means that you can create your own variation of Fritzing, as long as you credit us and also publish it under GPL. Similarly, you may re-publish our documentation, as long as you credit us, and publish it under the same 
-license. You may publish circuits and diagrams that you create with Fritzing and that use our graphics, again as long as you credit us, and 
+This means that you can create your own variation of Fritzing, as long as you credit us and also publish it under GPL. Similarly, you may re-publish our documentation, as long as you credit us, and publish it under the same
+license. You may publish circuits and diagrams that you create with Fritzing and that use our graphics, again as long as you credit us, and
 publish your works under the same license.  A credit can be as simple as "this image was created with Fritzing."
 
 Look up [our FAQs](http://fritzing.org/faq/) for more details on licensing.
