@@ -2,5 +2,6 @@
 
 ```bash
 mkdir build/ && cd build/
-conan install ..
+conan remote add .. https://api.bintray.com/conan/bincrafters/public-conan
+conan install .. --build missing
 ```
